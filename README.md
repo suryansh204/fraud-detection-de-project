@@ -10,7 +10,6 @@ This project uses the [PaySim Synthetic Financial Transactions Dataset](https://
 - Transaction types: `PAYMENT`, `TRANSFER`, `CASH_OUT`, `DEBIT`, `CASH_IN`
 - Target variable: `isFraud` (1 if fraudulent)
 
-**Note:** In simulated fraud cases, balances are inconsistent (transactions are canceled in the simulation). Therefore, balance fields aren’t reliable features for predicting `isFraud`.
 
 The dataset presents a challenging class imbalance, requiring appropriate sampling or modeling techniques.
 
