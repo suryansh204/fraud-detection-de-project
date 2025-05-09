@@ -172,3 +172,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore raw and cleaned data
+raw_data/
+cleaned_data/
+
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore any OS files
+.DS_Store
+Thumbs.db
