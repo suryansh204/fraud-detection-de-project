@@ -187,4 +187,5 @@ venv/
 
 # Ignore any OS files
 .DS_Store
-Thumbs.db
+Thumbs.dbraw_data/
+cleaned_data/

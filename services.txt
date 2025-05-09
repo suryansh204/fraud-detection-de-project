@@ -2,6 +2,9 @@ git add .
 git commit -m "EDA + data cleaning script"
 git push
 
+echo "cleaned_data/" >> .gitignore
+
+
 
 python3.9 -m venv venv
 source venv/bin/activate
